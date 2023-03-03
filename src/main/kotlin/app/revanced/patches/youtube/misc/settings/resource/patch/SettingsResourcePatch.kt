@@ -69,11 +69,11 @@ class SettingsResourcePatch : AbstractSettingsResourcePatch(
         val youtubePackage = "com.google.android.youtube"
         SettingsPatch.addPreference(
             Preference(
-                StringResource("revanced_settings", "ReVanced"),
+                StringResource("revanced_settings", "Advanced Settings by Mr.Hook"),
                 Preference.Intent(
                     youtubePackage, "revanced_settings", "com.google.android.libraries.social.licenses.LicenseActivity"
                 ),
-                StringResource("revanced_settings_summary", "ReVanced specific settings"),
+                StringResource("revanced_settings_summary", "Advanced specific settings"),
             )
         )
 
